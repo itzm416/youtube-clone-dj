@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ["13.221.59.111"]
 
 # Application definition
 
-
+# s
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
