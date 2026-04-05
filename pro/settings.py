@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ["13.221.59.111"]
 
 # Application definition
 
-# a
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-# ss
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
