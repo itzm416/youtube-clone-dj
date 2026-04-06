@@ -23,6 +23,8 @@ jobs:
             cd /home/ubuntu/youtubeclone
             git checkout develop
             git pull origin develop
+            source /home/ubuntu/youtubeclone/myprojectenv/bin/activate
+            pip install -r requirements.txt
             sudo systemctl restart gunicorn
 
   deploy-prod:
@@ -40,4 +42,6 @@ jobs:
             cd /home/ubuntu/youtubeclone
             git checkout main
             git pull origin main
+            source /home/ubuntu/youtubeclone/myprojectenv/bin/activate
+            pip install -r requirements.txt
             sudo systemctl restart gunicorn
